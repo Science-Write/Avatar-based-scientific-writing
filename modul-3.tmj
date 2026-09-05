@@ -1546,6 +1546,7 @@
                  "height":25.8506643192489,
                  "id":1,
                  "name":"fromMatrix",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"start",
@@ -1563,6 +1564,7 @@
                  "height":72,
                  "id":13,
                  "name":"zirze_2",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"chatText",
@@ -1580,6 +1582,16 @@
                          "value":"Zitierende Zirze"
                         }, 
                         {
+                         "name":"trackEnter",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"trackLeave",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
                          "name":"triggerQuest",
                          "type":"string",
                          "value":""
@@ -1595,6 +1607,7 @@
                  "height":32.1818,
                  "id":14,
                  "name":"exit",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"exitUrl",
@@ -1617,6 +1630,7 @@
                  "height":72.8335000000002,
                  "id":19,
                  "name":"zirze_1",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"chatText",
@@ -1634,6 +1648,16 @@
                          "value":"Zitierende Zirze"
                         }, 
                         {
+                         "name":"trackEnter",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"trackLeave",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
                          "name":"triggerQuest",
                          "type":"string",
                          "value":"quest17"
@@ -1649,6 +1673,7 @@
                  "height":88,
                  "id":24,
                  "name":"3_1_3Sprache",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1663,7 +1688,7 @@
                         {
                          "name":"openWebsiteClosable",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"openWebsiteTriggerMessage",
@@ -1674,6 +1699,16 @@
                          "name":"openWebsiteWidth",
                          "type":"int",
                          "value":50
+                        }, 
+                        {
+                         "name":"trackEnter",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"trackLeave",
+                         "type":"bool",
+                         "value":true
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1686,6 +1721,7 @@
                  "height":90,
                  "id":25,
                  "name":"3_2_1Zitieren",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1700,7 +1736,7 @@
                         {
                          "name":"openWebsiteClosable",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"openWebsiteTriggerMessage",
@@ -1711,6 +1747,16 @@
                          "name":"openWebsiteWidth",
                          "type":"int",
                          "value":50
+                        }, 
+                        {
+                         "name":"trackEnter",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"trackLeave",
+                         "type":"bool",
+                         "value":true
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1723,11 +1769,12 @@
                  "height":32.1818,
                  "id":28,
                  "name":"exit",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":".\/hub.tmj#toMatrix"
+                         "value":".\/hub.tmj#m3back"
                         }, 
                         {
                          "name":"\u2139\ufe0f",
@@ -1745,6 +1792,7 @@
                  "height":80,
                  "id":29,
                  "name":"3_1_1Textarten",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1759,7 +1807,7 @@
                         {
                          "name":"openWebsiteClosable",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"openWebsiteTriggerMessage",
@@ -1770,6 +1818,16 @@
                          "name":"openWebsiteWidth",
                          "type":"int",
                          "value":50
+                        }, 
+                        {
+                         "name":"trackEnter",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"trackLeave",
+                         "type":"bool",
+                         "value":true
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1782,6 +1840,7 @@
                  "height":117,
                  "id":30,
                  "name":"3_1_2AllgemeineRegeln",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1796,7 +1855,7 @@
                         {
                          "name":"openWebsiteClosable",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"openWebsiteTriggerMessage",
@@ -1807,6 +1866,16 @@
                          "name":"openWebsiteWidth",
                          "type":"int",
                          "value":50
+                        }, 
+                        {
+                         "name":"trackEnter",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"trackLeave",
+                         "type":"bool",
+                         "value":true
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1819,6 +1888,7 @@
                  "height":86.1667000000002,
                  "id":15,
                  "name":"3_2_2Literaturverzeichnis",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1833,7 +1903,7 @@
                         {
                          "name":"openWebsiteClosable",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"openWebsiteTriggerMessage",
@@ -1844,6 +1914,16 @@
                          "name":"openWebsiteWidth",
                          "type":"int",
                          "value":50
+                        }, 
+                        {
+                         "name":"trackEnter",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"trackLeave",
+                         "type":"bool",
+                         "value":true
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1856,6 +1936,7 @@
                  "height":80,
                  "id":27,
                  "name":"3_3Literaturverwaltung",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1870,7 +1951,7 @@
                         {
                          "name":"openWebsiteClosable",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"openWebsiteTriggerMessage",
@@ -1881,6 +1962,16 @@
                          "name":"openWebsiteWidth",
                          "type":"int",
                          "value":50
+                        }, 
+                        {
+                         "name":"trackEnter",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"trackLeave",
+                         "type":"bool",
+                         "value":true
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1893,6 +1984,7 @@
                  "height":26.3333,
                  "id":34,
                  "name":"triggerM3Quests",
+                 "opacity":1,
                  "rotation":0,
                  "type":"area",
                  "visible":true,
@@ -1904,6 +1996,7 @@
                  "height":79.3333,
                  "id":35,
                  "name":"Terminal-2",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1941,6 +2034,7 @@
                  "height":79.3333,
                  "id":36,
                  "name":"Terminal-1",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1978,6 +2072,7 @@
                  "height":80,
                  "id":37,
                  "name":"Endquiz",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -2015,6 +2110,7 @@
                  "height":1511.48157489879,
                  "id":38,
                  "name":"background_music",
+                 "opacity":1,
                  "rotation":0,
                  "type":"area",
                  "visible":true,
@@ -2026,6 +2122,7 @@
                  "height":1362.08728744939,
                  "id":39,
                  "name":"stepFX",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"material",
@@ -2045,43 +2142,10 @@
                  "y":1517.94421052632
                 }, 
                 {
-                 "height":31.2122,
-                 "id":40,
-                 "name":"Bot_Space1",
-                 "properties":[
-                        {
-                         "name":"start",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":34.7386,
-                 "x":400.1307,
-                 "y":2625.3939
-                }, 
-                {
-                 "height":31.2122,
-                 "id":41,
-                 "name":"Bot_Space1",
-                 "properties":[
-                        {
-                         "name":"start",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":34.7386,
-                 "x":357.1307,
-                 "y":2044.8939
-                }, 
-                {
                  "height":91,
                  "id":45,
                  "name":"assignedCodesM3",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"default",
@@ -2104,12 +2168,12 @@
                  "width":75,
                  "x":557,
                  "y":2780
-                },
-            
+                }, 
                 {
                  "height":84,
                  "id":48,
                  "name":"currentSemesterM3",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"default",
@@ -2371,7 +2435,7 @@
          "value":"src\/m3Main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.11.0",
+ "tiledversion":"1.12.2-2-geb83ddb9",
  "tileheight":32,
  "tilesets":[
         {

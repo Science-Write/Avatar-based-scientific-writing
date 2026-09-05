@@ -11,7 +11,7 @@ function playRandomSound(material: MaterialType) {
 
   const randomIndex = Math.floor(Math.random() * soundFiles[material].length);
   mySound = WA.sound.loadSound(
-    `https://komponentab.github.io/Avatar-based-scientific-writing/sounds/${soundFiles[material][randomIndex]}`
+    `https://science-write.github.io/Avatar-based-scientific-writing/sounds/${soundFiles[material][randomIndex]}`
   );
   mySound.play(audioConfig);
 }

@@ -352,7 +352,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9384, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -701,6 +701,7 @@
                  "height":64.5454545454546,
                  "id":1,
                  "name":"toMatrix",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"start",
@@ -717,7 +718,8 @@
                 {
                  "height":32,
                  "id":2,
-                 "name":"exit_m3",
+                 "name":"exit-m3",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"exitUrl",
@@ -734,7 +736,8 @@
                 {
                  "height":32,
                  "id":3,
-                 "name":"exit_m2",
+                 "name":"exit-m2",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"exitUrl",
@@ -752,6 +755,7 @@
                  "height":32,
                  "id":5,
                  "name":"exit",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"exitUrl",
@@ -774,11 +778,12 @@
                  "height":111.666633333333,
                  "id":9,
                  "name":"zirze_1",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"chatText",
                          "type":"string",
-                         "value":"##### \ud83d\udd11 Weiter im Kondensatorium \n\n\nIch bin eine der holograhischen Nachrichten der **zitierenden Zirze** \u2728\ud83d\udcd6 und werde dir eine kleines Tutorial geben.\n\n\nHier im **Kondensatorium** \ud83d\udcda speichern und produzieren wir alle digitalen Lehr- und Lernmaterialien.   \n\nWie du wei\u00dft, wurden wir **angegriffen** \u26a1 und unsere Materialien **besch\u00e4digt** \ud83d\udd25.   \n\n \nDu kannst diesen Bereich erst wieder verlassen, wenn **Lord Modrevolts Schadcode** \ud83d\udc80\ud83d\udcbe eliminiert ist.   \n\n\nUnsere Tutorin **Alex** \ud83d\udc69\u200d\ud83c\udfeb hat in ihren Lehrmaterialien **geheime Zahlencodes** \ud83d\udd22 hinterlassen,   \n\ndie du nur finden kannst, wenn du alle Materialien **bearbeitest** \ud83d\udcdc\ud83d\udd0d.   \n\n \n\nDiese **Zahlencodes** sind essenziell, um die Welt hier unten wieder **sicher** \ud83d\udd12 vor **Lord Modrevolt** zu machen.   \n\n \n\n\ud83d\ude80 **{NameOfPlayer}, du bist nun bereit, mit Modul 2 zu starten!**   \n\n\ud83d\udce2 Alles Weitere erz\u00e4hle ich dir dort!  "
+                         "value":"##### \ud83d\udd11 Zugang zum Kondensatorium \n\n**Prima!** \ud83c\udf89 Du hast den Zugang zum **Kondensatorium** gefunden.\n\nIch bin die **zitierenden Zirze** \u2728\ud83d\udcd6 und werde dir eine kleines Tutorial geben.\n\n\nHier im **Kondensatorium** \ud83d\udcda speichern und produzieren wir alle digitalen Lehr- und Lernmaterialien.   \n\nWie du wei\u00dft, wurden wir **angegriffen** \u26a1 und unsere Materialien **besch\u00e4digt** \ud83d\udd25.   \n\n \nDu kannst diesen Bereich erst wieder verlassen, wenn **Lord Modrevolts Schadcode** \ud83d\udc80\ud83d\udcbe eliminiert ist.   \n\n\nUnsere Tutorin **Alex** \ud83d\udc69\u200d\ud83c\udfeb hat in ihren Lehrmaterialien **geheime Zahlencodes** \ud83d\udd22 hinterlassen,   \n\ndie du nur finden kannst, wenn du alle Materialien **bearbeitest** \ud83d\udcdc\ud83d\udd0d.   \n\n \n\nDiese **Zahlencodes** sind essenziell, um die Welt hier unten wieder **sicher** \ud83d\udd12 vor **Lord Modrevolt** zu machen.   \n\n \n\n\ud83d\ude80 **{NameOfPlayer}, du bist nun bereit, mit Modul 2 zu starten!**   \n\n\ud83d\udce2 Alles Weitere erz\u00e4hle ich dir dort!  "
                         }, 
                         {
                          "name":"isNpc",
@@ -789,6 +794,16 @@
                          "name":"npcName",
                          "type":"string",
                          "value":"Zitierende Zirze"
+                        }, 
+                        {
+                         "name":"trackEnter",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"trackLeave",
+                         "type":"bool",
+                         "value":true
                         }, 
                         {
                          "name":"triggerQuest",
@@ -803,9 +818,28 @@
                  "y":501.166683333333
                 }, 
                 {
+                 "height":64.5455,
+                 "id":11,
+                 "name":"labToMatrix",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"start",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":64.7386,
+                 "x":987,
+                 "y":796
+                }, 
+                {
                  "height":153.667,
                  "id":14,
                  "name":"zirze_3",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"chatText",
@@ -823,6 +857,16 @@
                          "value":"Zitierende Zirze"
                         }, 
                         {
+                         "name":"trackEnter",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"trackLeave",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
                          "name":"triggerQuest",
                          "type":"string",
                          "value":""
@@ -838,6 +882,7 @@
                  "height":100.530697190427,
                  "id":17,
                  "name":"finalCodeTerminal",
+                 "opacity":1,
                  "rotation":0,
                  "type":"area",
                  "visible":true,
@@ -849,6 +894,7 @@
                  "height":910.267224058162,
                  "id":18,
                  "name":"background_music",
+                 "opacity":1,
                  "rotation":0,
                  "type":"area",
                  "visible":true,
@@ -860,6 +906,7 @@
                  "height":783.7687838731,
                  "id":20,
                  "name":"stepFX",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"material",
@@ -882,6 +929,7 @@
                  "height":31.8788333333334,
                  "id":24,
                  "name":"m2back",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"start",
@@ -899,6 +947,7 @@
                  "height":33.8788333333334,
                  "id":25,
                  "name":"m3back",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"start",
@@ -911,23 +960,6 @@
                  "width":33.7386,
                  "x":734.6307,
                  "y":414.060583333333
-                }, 
-                {
-                 "height":31.2121666666667,
-                 "id":26,
-                 "name":"Bot_Space1",
-                 "properties":[
-                        {
-                         "name":"start",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":34.7386,
-                 "x":737.6307,
-                 "y":515.060583333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1087,7 +1119,7 @@
          "value":"src\/hubMain.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.11.0",
+ "tiledversion":"1.12.2-2-geb83ddb9",
  "tileheight":32,
  "tilesets":[
         {

@@ -3077,6 +3077,7 @@
                  "height":32,
                  "id":6,
                  "name":"labportal",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"start",
@@ -3094,6 +3095,7 @@
                  "height":211.333333333333,
                  "id":8,
                  "name":"H5P_video_1",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -3146,6 +3148,7 @@
                  "height":146.333333333333,
                  "id":9,
                  "name":"mumblecore_1",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"chatText",
@@ -3188,6 +3191,7 @@
                  "height":84.3333333333333,
                  "id":11,
                  "name":"mcdongle_1",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"chatText",
@@ -3230,6 +3234,7 @@
                  "height":65.6666333333333,
                  "id":13,
                  "name":"grid_1",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"chatText",
@@ -3267,6 +3272,7 @@
                  "height":76.3333,
                  "id":15,
                  "name":"progger_1",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"chatText",
@@ -3304,6 +3310,7 @@
                  "height":100.3333,
                  "id":17,
                  "name":"sake_1",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"chatText",
@@ -3346,6 +3353,7 @@
                  "height":84.3333,
                  "id":19,
                  "name":"tutorialNPC_1",
+                 "opacity":1,
                  "rotation":0,
                  "type":"area",
                  "visible":true,
@@ -3357,6 +3365,7 @@
                  "height":84.3333,
                  "id":24,
                  "name":"tutorialNPC_2",
+                 "opacity":1,
                  "rotation":0,
                  "type":"area",
                  "visible":true,
@@ -3368,6 +3377,7 @@
                  "height":84.3333,
                  "id":25,
                  "name":"tutorialNPC_4",
+                 "opacity":1,
                  "rotation":0,
                  "type":"area",
                  "visible":true,
@@ -3379,6 +3389,7 @@
                  "height":84.3333,
                  "id":26,
                  "name":"tutorialNPC_3",
+                 "opacity":1,
                  "rotation":0,
                  "type":"area",
                  "visible":true,
@@ -3390,6 +3401,7 @@
                  "height":0,
                  "id":29,
                  "name":"bookshelf",
+                 "opacity":1,
                  "point":true,
                  "properties":[
                         {
@@ -3443,6 +3455,7 @@
                  "height":0,
                  "id":30,
                  "name":"hideShow_matrix",
+                 "opacity":1,
                  "point":true,
                  "properties":[
                         {
@@ -3466,6 +3479,7 @@
                  "height":296,
                  "id":31,
                  "name":"leaveNotlog",
+                 "opacity":1,
                  "rotation":0,
                  "type":"area",
                  "visible":true,
@@ -3477,6 +3491,7 @@
                  "height":32,
                  "id":34,
                  "name":"exit",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"exitUrl",
@@ -3499,6 +3514,7 @@
                  "height":84.3333,
                  "id":36,
                  "name":"quest1",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"isQuest",
@@ -3546,6 +3562,7 @@
                  "height":84.3333,
                  "id":37,
                  "name":"quest2",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"isQuest",
@@ -3593,6 +3610,7 @@
                  "height":84.3333,
                  "id":38,
                  "name":"quest3",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"isQuest",
@@ -3640,6 +3658,7 @@
                  "height":0,
                  "id":39,
                  "name":"playerName",
+                 "opacity":1,
                  "point":true,
                  "rotation":0,
                  "type":"variable",
@@ -3652,6 +3671,7 @@
                  "height":468.937382705229,
                  "id":40,
                  "name":"stone_area2",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"material",
@@ -3674,6 +3694,7 @@
                  "height":625.424389851109,
                  "id":41,
                  "name":"wood_1",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"material",
@@ -3696,6 +3717,7 @@
                  "height":748.035919019105,
                  "id":42,
                  "name":"wood_2",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"material",
@@ -3718,6 +3740,7 @@
                  "height":869.22219903051,
                  "id":43,
                  "name":"path_2",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"material",
@@ -3740,6 +3763,7 @@
                  "height":92.6518718947659,
                  "id":44,
                  "name":"path_2",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"material",
@@ -3762,6 +3786,7 @@
                  "height":210.038766281048,
                  "id":45,
                  "name":"path_4",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"material",
@@ -3784,6 +3809,7 @@
                  "height":249.445776114325,
                  "id":46,
                  "name":"wood_4",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"material",
@@ -3806,6 +3832,7 @@
                  "height":568.445892229766,
                  "id":47,
                  "name":"wood_5",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"material",
@@ -3828,6 +3855,7 @@
                  "height":1403.18460025632,
                  "id":48,
                  "name":"background_music",
+                 "opacity":1,
                  "rotation":0,
                  "type":"area",
                  "visible":true,
@@ -3839,6 +3867,7 @@
                  "height":1758.72509065223,
                  "id":49,
                  "name":"background_music2",
+                 "opacity":1,
                  "rotation":0,
                  "type":"area",
                  "visible":true,
@@ -4703,7 +4732,7 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"Notlog"
+         "value":"Notlog-Start"
         }, 
         {
          "name":"mapImage",
@@ -4713,15 +4742,15 @@
         {
          "name":"mapName",
          "type":"string",
-         "value":"Notlog"
+         "value":"Notlog-Start"
         }, 
         {
          "name":"script",
          "type":"string",
-         "value":"src\/notlogMain.ts" 
+         "value":"src\/notlogMain.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.11.0",
+ "tiledversion":"1.12.2-2-geb83ddb9",
  "tileheight":32,
  "tilesets":[
         {

@@ -2,29 +2,29 @@
 
 const npcSounds: Record<string, string[]> = {
   "Zitierende Zirze": [
-    "https://komponentab.github.io/Avatar-based-scientific-writing/Zirze_1.wav",
-    "https://komponentab.github.io/Avatar-based-scientific-writing/Zirze_2.wav",
-    "https://komponentab.github.io/Avatar-based-scientific-writing/Zirze_3.wav",
-    "https://komponentab.github.io/Avatar-based-scientific-writing/Zirze_4.wav",
-    "https://komponentab.github.io/Avatar-based-scientific-writing/Zirze_5.wav",
+    "https://science-write.github.io/Avatar-based-scientific-writing/Zirze_1.wav",
+    "https://science-write.github.io/Avatar-based-scientific-writing/Zirze_2.wav",
+    "https://science-write.github.io/Avatar-based-scientific-writing/Zirze_3.wav",
+    "https://science-write.github.io/Avatar-based-scientific-writing/Zirze_4.wav",
+    "https://science-write.github.io/Avatar-based-scientific-writing/Zirze_5.wav",
   ],
 
   "Prof. Sake": [
-    "https://komponentab.github.io/Avatar-based-scientific-writing/sake_1.wav",
-    "https://komponentab.github.io/Avatar-based-scientific-writing/sake_2.wav",
-    "https://komponentab.github.io/Avatar-based-scientific-writing/sake_3.wav",
+    "https://science-write.github.io/Avatar-based-scientific-writing/sake_1.wav",
+    "https://science-write.github.io/Avatar-based-scientific-writing/sake_2.wav",
+    "https://science-write.github.io/Avatar-based-scientific-writing/sake_3.wav",
   ],
 
   "Mumblecore": [
-    "https://komponentab.github.io/Avatar-based-scientific-writing/mumblecore_1.wav",
-    "https://komponentab.github.io/Avatar-based-scientific-writing/mumblecore_2.wav",
-    "https://komponentab.github.io/Avatar-based-scientific-writing/mumblecore_3.wav",
+    "https://science-write.github.io/Avatar-based-scientific-writing/mumblecore_1.wav",
+    "https://science-write.github.io/Avatar-based-scientific-writing/mumblecore_2.wav",
+    "https://science-write.github.io/Avatar-based-scientific-writing/mumblecore_3.wav",
   ],
 
   "Prof. McDongle": [
-    "https://komponentab.github.io/Avatar-based-scientific-writing/dongagle_1.wav",
-    "https://komponentab.github.io/Avatar-based-scientific-writing/dongagle_2.wav",
-    "https://komponentab.github.io/Avatar-based-scientific-writing/dongagle_3.wav",
+    "https://science-write.github.io/Avatar-based-scientific-writing/dongagle_1.wav",
+    "https://science-write.github.io/Avatar-based-scientific-writing/dongagle_2.wav",
+    "https://science-write.github.io/Avatar-based-scientific-writing/dongagle_3.wav",
   ],
 };
 

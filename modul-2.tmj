@@ -1546,6 +1546,7 @@
                  "height":26.5455,
                  "id":1,
                  "name":"fromMatrix",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"start",
@@ -1563,6 +1564,7 @@
                  "height":72,
                  "id":13,
                  "name":"zirze2_2",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"chatText",
@@ -1580,6 +1582,16 @@
                          "value":"Zitierende Zirze"
                         }, 
                         {
+                         "name":"trackEnter",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"trackLeave",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
                          "name":"triggerQuest",
                          "type":"string",
                          "value":"quest12"
@@ -1595,6 +1607,7 @@
                  "height":32.1818,
                  "id":14,
                  "name":"exit",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"exitUrl",
@@ -1617,6 +1630,7 @@
                  "height":72.8335000000002,
                  "id":19,
                  "name":"zirze2_1",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"chatText",
@@ -1634,6 +1648,16 @@
                          "value":"Zitierende Zirze"
                         }, 
                         {
+                         "name":"trackEnter",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"trackLeave",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
                          "name":"triggerQuest",
                          "type":"string",
                          "value":""
@@ -1649,6 +1673,7 @@
                  "height":83.7358490566039,
                  "id":25,
                  "name":"Terminal-1",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1686,11 +1711,12 @@
                  "height":32.1818,
                  "id":28,
                  "name":"exit",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":".\/hub.tmj#toMatrix"
+                         "value":".\/hub.tmj#m2back"
                         }, 
                         {
                          "name":"\u2139\ufe0f",
@@ -1708,6 +1734,7 @@
                  "height":80,
                  "id":29,
                  "name":"2_1PlanungSelbstmanagement",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1722,7 +1749,7 @@
                         {
                          "name":"openWebsiteClosable",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"openWebsiteTriggerMessage",
@@ -1733,6 +1760,16 @@
                          "name":"openWebsiteWidth",
                          "type":"int",
                          "value":50
+                        }, 
+                        {
+                         "name":"trackEnter",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"trackLeave",
+                         "type":"bool",
+                         "value":true
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1745,6 +1782,7 @@
                  "height":98.6666666666667,
                  "id":27,
                  "name":"2_4Lesen",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1759,7 +1797,7 @@
                         {
                          "name":"openWebsiteClosable",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"openWebsiteTriggerMessage",
@@ -1770,6 +1808,16 @@
                          "name":"openWebsiteWidth",
                          "type":"int",
                          "value":50
+                        }, 
+                        {
+                         "name":"trackEnter",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"trackLeave",
+                         "type":"bool",
+                         "value":true
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1782,6 +1830,7 @@
                  "height":80,
                  "id":37,
                  "name":"2_3Literaturrecherche",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1796,7 +1845,7 @@
                         {
                          "name":"openWebsiteClosable",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"openWebsiteTriggerMessage",
@@ -1807,6 +1856,16 @@
                          "name":"openWebsiteWidth",
                          "type":"int",
                          "value":50
+                        }, 
+                        {
+                         "name":"trackEnter",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"trackLeave",
+                         "type":"bool",
+                         "value":true
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1819,6 +1878,7 @@
                  "height":23.8333333333335,
                  "id":38,
                  "name":"triggerM2Quests",
+                 "opacity":1,
                  "rotation":0,
                  "type":"area",
                  "visible":true,
@@ -1830,6 +1890,7 @@
                  "height":80,
                  "id":43,
                  "name":"2_2ThemenfindungGliederung",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1844,7 +1905,7 @@
                         {
                          "name":"openWebsiteClosable",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"openWebsiteTriggerMessage",
@@ -1855,6 +1916,16 @@
                          "name":"openWebsiteWidth",
                          "type":"int",
                          "value":50
+                        }, 
+                        {
+                         "name":"trackEnter",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"trackLeave",
+                         "type":"bool",
+                         "value":true
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1867,6 +1938,7 @@
                  "height":89.999966666667,
                  "id":45,
                  "name":"Terminal-2",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1892,6 +1964,16 @@
                          "name":"openWebsiteWidth",
                          "type":"int",
                          "value":25
+                        }, 
+                        {
+                         "name":"trackEnter",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"trackLeave",
+                         "type":"bool",
+                         "value":true
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1904,6 +1986,7 @@
                  "height":80,
                  "id":46,
                  "name":"Endquiz",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"openWebsite",
@@ -1941,6 +2024,7 @@
                  "height":1511.48,
                  "id":47,
                  "name":"background_music",
+                 "opacity":1,
                  "rotation":0,
                  "type":"area",
                  "visible":true,
@@ -1952,6 +2036,7 @@
                  "height":1362.09,
                  "id":48,
                  "name":"stepFX",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"material",
@@ -1971,43 +2056,10 @@
                  "y":1513.03265155974
                 }, 
                 {
-                 "height":31.2122,
-                 "id":49,
-                 "name":"Bot_Space1",
-                 "properties":[
-                        {
-                         "name":"start",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":34.7386,
-                 "x":381.964033333333,
-                 "y":2529.06056666667
-                }, 
-                {
-                 "height":31.2122,
-                 "id":50,
-                 "name":"Bot_Space2",
-                 "properties":[
-                        {
-                         "name":"start",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":34.7386,
-                 "x":357.297366666667,
-                 "y":2050.3939
-                }, 
-                {
                  "height":84,
                  "id":51,
                  "name":"currentSemesterM2",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"default",
@@ -2035,6 +2087,7 @@
                  "height":91,
                  "id":52,
                  "name":"assignedCodesM2",
+                 "opacity":1,
                  "properties":[
                         {
                          "name":"default",
@@ -2326,7 +2379,7 @@
          "value":"src\/m2Main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.11.0",
+ "tiledversion":"1.12.2-2-geb83ddb9",
  "tileheight":32,
  "tilesets":[
         {

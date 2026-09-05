@@ -30,7 +30,7 @@ The goal is to create an interactive learning world where students move through 
 # 2. Repository Structure
 
 ```text
-komponentab-avatar-based-scientific-writing/
+science-write-avatar-based-scientific-writing/
 ├── README.md
 ├── index.html
 ├── package.json
@@ -976,11 +976,11 @@ playRandomNPCSound(area.npcName);
 ```ts
 const npcSounds: Record<string, string[]> = {
   "Zitierende Zirze": [
-    "https://komponentab.github.io/Avatar-based-scientific-writing/Zirze_1.wav",
-    "https://komponentab.github.io/Avatar-based-scientific-writing/Zirze_2.wav",
-    "https://komponentab.github.io/Avatar-based-scientific-writing/Zirze_3.wav",
-    "https://komponentab.github.io/Avatar-based-scientific-writing/Zirze_4.wav",
-    "https://komponentab.github.io/Avatar-based-scientific-writing/Zirze_5.wav"
+    "https://science-write.github.io/Avatar-based-scientific-writing/Zirze_1.wav",
+    "https://science-write.github.io/Avatar-based-scientific-writing/Zirze_2.wav",
+    "https://science-write.github.io/Avatar-based-scientific-writing/Zirze_3.wav",
+    "https://science-write.github.io/Avatar-based-scientific-writing/Zirze_4.wav",
+    "https://science-write.github.io/Avatar-based-scientific-writing/Zirze_5.wav"
   ]
 };
 ```

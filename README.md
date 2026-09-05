@@ -1,6 +1,6 @@
 # Avatar-based Scientific Writing
 
-![Science Write Logo](https://github.com/KomponentAB/Avatar-based-scientific-writing/blob/master/Branding/science%20write%20only.png?raw=true)
+![Science Write Logo](https://github.com/science-write/Avatar-based-scientific-writing/blob/master/Branding/science%20write%20only.png?raw=true)
 
 ## Projektbeschreibung
 
@@ -29,7 +29,7 @@ Kilian Schmelmer
 
 Das Projekt wird gefördert durch die **Stiftung Innovation in der Hochschullehre**.
 
-![Logo Stiftung Innovation in der Hochschullehre](https://github.com/KomponentAB/Avatar-based-scientific-writing/blob/master/Branding/logo%20auth%20page.png?raw=true)
+![Logo Stiftung Innovation in der Hochschullehre](https://github.com/science-write/Avatar-based-scientific-writing/blob/master/Branding/logo%20auth%20page.png?raw=true)
 
 ---
 
@@ -37,7 +37,7 @@ Das Projekt wird gefördert durch die **Stiftung Innovation in der Hochschullehr
 
 Ein Teil der Lernumgebung ist als fiktive Universitätswelt gestaltet.
 
-![Notlog Universität Logo](https://github.com/KomponentAB/Avatar-based-scientific-writing/blob/master/Branding/logo%20on%20email.png?raw=true)
+![Notlog Universität Logo](https://github.com/science-write/Avatar-based-scientific-writing/blob/master/Branding/logo%20on%20email.png?raw=true)
 
 ---
 
