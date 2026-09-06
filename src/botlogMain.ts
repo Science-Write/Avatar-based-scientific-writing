@@ -23,7 +23,7 @@ WA.onInit().then(async () => {
   if (!WA.player.state.currentQuest) {
     WA.player.state.currentQuest = "quest1";
   }
-  levelUp("notlog", 0);
+  levelUp("botlog", 0);
 
   try {
     // Initialize the Scripting API Extra
@@ -114,7 +114,7 @@ WA.onInit().then(async () => {
   ) {
     console.log("Map URL: ", mapURL);
     // Teleport the player to the entry named "matrix-hub"
-    WA.nav.goToRoom("./hub.tmj");
+    WA.nav.goToRoom("./bot-hub.tmj");
   }
 
   // Event listener for entering the notlog area
@@ -124,7 +124,7 @@ WA.onInit().then(async () => {
       console.log("Map URL: ", mapURL);
       if (!mapURL.includes("localhost")) {
         // Teleport the player to the entry named "matrix-hub"
-        WA.nav.goToRoom("./hub.tmj");
+        WA.nav.goToRoom("./bot-hub.tmj");
       }
     }
   });
@@ -147,7 +147,7 @@ WA.onInit().then(async () => {
 
   // Event listener for changes in the current quest
   WA.player.state.onVariableChange("currentQuest").subscribe((newQuestId) => {
-    levelUp("notlog", 1);
+    levelUp("botlog", 1);
     const newQuest = quests.find(
       (q: { questId: string }) => q.questId === newQuestId,
     );

@@ -1612,7 +1612,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":".\/hub.tmj#m2back"
+                         "value":".\/bot-hub.tmj#m2back"
                         }, 
                         {
                          "name":"\u2139\ufe0f",
@@ -1716,7 +1716,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":".\/hub.tmj#m2back"
+                         "value":".\/bot-hub.tmj#m2back"
                         }, 
                         {
                          "name":"\u2139\ufe0f",
@@ -2361,7 +2361,7 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"Modul 2"
+         "value":"Bot-Modul 2"
         }, 
         {
          "name":"mapImage",
@@ -2376,7 +2376,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"src\/m2Main.ts"
+         "value":"src\/b2Main.ts"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.12.2-2-geb83ddb9",

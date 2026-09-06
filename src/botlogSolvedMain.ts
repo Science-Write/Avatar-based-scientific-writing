@@ -2,7 +2,6 @@
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 import { checkPlayerMaterial, mySound, playRandomSound } from "./footstep";
 import { getChatAreas } from "./chatArea";
-import { playRandomNPCSound } from "./huh";
 import { quests, levelUp } from "./quests";
 import {
   trackNpcInteraction, setupPlayerInteractionTracking,
@@ -10,20 +9,13 @@ import {
   setupPingTracking,
 } from "./worldTracking";
 import { setupBotInteractionTracking } from "./botTracking";
-
+import { playRandomNPCSound } from "./huh";
 
 WA.onInit().then(async () => {
-  WA.state.playerName = WA.player.name;
   console.log("loading main.ts");
   WA.controls.disableInviteButton();
   WA.controls.disableMapEditor();
   WA.controls.disableRoomList();
-
-  // Initialize the first quest if not already set
-  if (!WA.player.state.currentQuest) {
-    WA.player.state.currentQuest = "quest1";
-  }
-  levelUp("notlog", 0);
 
   try {
     // Initialize the Scripting API Extra
@@ -32,6 +24,7 @@ WA.onInit().then(async () => {
   } catch (e) {
     console.error(e);
   }
+});
 
   // Get chat areas and set up event listeners for entering and leaving them
 
@@ -45,7 +38,7 @@ WA.onInit().then(async () => {
       // When player enters a chat area
       WA.room.area.onEnter(area.name).subscribe(() => {
         playRandomNPCSound(area.npcName);
-
+        
         triggerMessage = WA.ui.displayActionMessage({
           message: `[LEERTASTE] drücken um mit ${area.npcName} zu sprechen.`,
           callback: () => {
@@ -63,6 +56,7 @@ WA.onInit().then(async () => {
                 WA.player.state.currentQuest = area.triggerQuest;
               }
             }
+            
           },
         });
         WA.room.area.onLeave(area.name).subscribe(() => {
@@ -97,45 +91,6 @@ WA.onInit().then(async () => {
     }
   });
 
-  // Check if the player has solved the notlog quest and is not an admin
-  const solvedNotlog = WA.player.state.solvedNotlog;
-  const isAdmin = WA.player.tags.includes("admin");
-  const mapURL = WA.room.mapURL;
-
-  console.log("solvedNotlog:", solvedNotlog);
-  console.log("isAdmin:", isAdmin);
-  console.log("mapURL:", mapURL);
-
-  if (
-    solvedNotlog === true &&
-    !isAdmin &&
-    mapURL.includes("notlog") &&
-    !mapURL.includes("localhost")
-  ) {
-    console.log("Map URL: ", mapURL);
-    // Teleport the player to the entry named "matrix-hub"
-    WA.nav.goToRoom("./hub.tmj");
-  }
-
-  // Event listener for entering the notlog area
-  WA.room.area.onEnter("notlog").subscribe(() => {
-    console.log("Entered notlog area");
-    if (solvedNotlog === true && !isAdmin) {
-      console.log("Map URL: ", mapURL);
-      if (!mapURL.includes("localhost")) {
-        // Teleport the player to the entry named "matrix-hub"
-        WA.nav.goToRoom("./hub.tmj");
-      }
-    }
-  });
-
-  // Event listener for leaving the notlog area
-  WA.room.area.onEnter("leaveNotlog").subscribe(() => {
-    console.log("Leaving notlog area");
-    WA.player.state.solvedNotlog = true;
-    WA.player.state.currentQuest = "quest6";
-  });
-
   // Display the current quest banner if a quest is active
   const currentQuestId = WA.player.state.currentQuest;
   const currentQuest = quests.find(
@@ -147,7 +102,7 @@ WA.onInit().then(async () => {
 
   // Event listener for changes in the current quest
   WA.player.state.onVariableChange("currentQuest").subscribe((newQuestId) => {
-    levelUp("notlog", 1);
+    levelUp("botlog2", 10);
     const newQuest = quests.find(
       (q: { questId: string }) => q.questId === newQuestId,
     );
@@ -172,14 +127,27 @@ WA.onInit().then(async () => {
       });
     }
   }
+
+
+WA.player.state.onVariableChange("4KI").subscribe({
+  next: (newValue) => {
+    if (newValue === "solved") {
+      levelUp("bodul_4", 10);
+      console.log(`Variable "4KI" solved. Level up, +10XP`);
+      WA.player.state.currentQuest = "quest28";
+      setTimeout(() => {
+        try {
+          if (WA.chat && typeof WA.chat.close === "function") {
+            WA.chat.close();
+          }
+        } catch (e) {
+          console.error("Error closing chat:", e);
+        }
+      }, 60000);
+    }
+  },
 });
 
-WA.player.state.onVariableChange("Einführungsvideo").subscribe((newValue) => {
-  if (newValue === "solved") {
-    console.log(`Einführungsvideo" solved. Level up, +10XP`);
-    WA.player.state.currentQuest = "quest5";
-  }
-});
 // Tracking script
 
 WA.onInit().then(async () => {
@@ -196,4 +164,5 @@ setupTracking();
 setupPingTracking(); // default 3 minutes
 setupPlayerInteractionTracking();
 });
+
 export {};

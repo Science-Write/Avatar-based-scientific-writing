@@ -4374,7 +4374,7 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"Notlog-Solved"
+         "value":"Botlog-Solved"
         }, 
         {
          "name":"mapImage",
