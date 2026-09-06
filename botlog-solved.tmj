@@ -4389,7 +4389,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"src\/notlogSolvedMain.ts"
+         "value":"src\/botlogSolvedMain.ts"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.12.2-2-geb83ddb9",
